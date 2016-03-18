@@ -1,0 +1,38 @@
+---
+layout: default
+comments: true
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+      <br>
+
+    [{% for tag in page.tags %}
+      <a href='/tags/{{tag}}'>{{ tag }}</a>
+      {% if forloop.last != true %},{% endif %}
+    {% endfor %}]
+    </p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+<section class="comments">
+    <h2>Comments</h2>
+    <div id="disqus_thread" aria-live="polite">
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+{% include disqus.html %}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script type="text/javascript">
+anchors.options = {
+  placement: 'left'
+};
+anchors.add()
+</script>

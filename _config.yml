@@ -1,0 +1,14 @@
+# Site settings
+title: Downhill to Dumplings
+description: Snack biking routes around SF.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.downhilltodumplings.com" # the base hostname & protocol for your site
+twitter_username: kiranb
+github_username:  kiran
+disqus_shortname: kiranbot
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
