@@ -1,0 +1,11 @@
+# Site settings
+title: Downhill to Dumplings
+description: A catalogue of snack bikes.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.downhilltodumplings.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  auto_ids: true
