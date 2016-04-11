@@ -4,7 +4,7 @@ layout: "post"
 tags: [burmese, ice cream, glutenfree, hiking, moderate]
 ---
 
-This was the first snack biking trip!
+The first time I've been to Land's End.
 
 ## Stops
 
