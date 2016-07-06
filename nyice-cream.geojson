@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name",
+	"properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+	{ "type": "Feature", "id": 1, "properties": { "name": "10Below", "address": "10 Mott Street", "borough": "Manhattan", "city": "New York", "state": "NY", "yelp_url": "http://www.yelp.com/biz/10below-ice-cream-new-york-3" }, "geometry": { "type": "Point", "coordinates": [ -73.998561, 40.714273] } },
+	]
+}
